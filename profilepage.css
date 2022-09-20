@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    background-color: black;
+    padding: 1em;
+    display: flex;
+    align-content: flex-end;
+    justify-content: space-around;
+    font-family: 'Roboto', sans-serif;
+    color: white;}
+
+.nav-title { 
+    align-content: flex-start;
+    }
+
+.nav-links {
+    list-style-type: none;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 50%;
+            color:white;}
+
+.btn { 
+    height: 35px;
+    width: 100px;
+    background-color: #17a2b8;
+    color: #ffffff;
+    border: none;
+    font-size: 16px;
+    box-shadow: 5px 5px #000000;}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.locationcontainer {
+    display: flex;
+    align-items: center;
+}
+
+.name {
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+.containerL {
+    padding: 20px;
+    width: 40%;
+}
+
+.card {
+    border: 5px blue;
+}
+
+.header {
+    background-color: #17a2b8;
+}
+
+.cardbody {
+    border-left: 3px solid gray;
+    border-right: 3px solid gray;
+    border-bottom: 3px solid gray;
+    padding: 20px;
+}
+
+.gear {
+    height: 30px;
+}
+.body {
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+}
+
+.foot {
+    display: flex;
+    align-items: center;
+    justify-content:flex-start
+}
+
+.educationcard {
+    margin-top: 30px;
+    border: 3px solid gray;
+}
+
+.eduheader {
+    background-color: gray;
+    padding-bottom: 20px;
+}
+
+.education {
+    padding: 10px;
+}
+
+.edubody {
+    padding: 5%;
+}
+
+
+.containerR {
+    padding: 20px;
+    width: 30%;
+}
+
+.connectioncard {
+    border: 3px solid gray;
+    display: flex;
+    flex-direction: column;
+}
+
+.connectionheader {
+    background-color: gray;
+    padding-bottom: 20px;
+}
+
+.checks {
+    height: 5em;
+    justify-content: space-between;
+}
+
+.list {
+    list-style: none;
+}
+
+.requests {
+}
+
+.connectionbody {
+}
+
+.connectitem {
+    size: 5px;
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+}
+
+.connectionfooter {
+    padding-top: 1em;
+    border: 3px solid gray;
+}
+.connections {
+    padding-top: 1em;
+}
+
+.acceptdeny {
+    size: 5px;
+    justify-content: space-between;
+}
+
+.profileimage {
+    height: 70px;
+    position: relative;
+    left: 20px;
+    top: 35px;
+}
+
+.avatar {
+    height: 5em;
+    border-radius: 50%;
+}
